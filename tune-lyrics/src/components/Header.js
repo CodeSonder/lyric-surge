@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
-import Quotes from './QuoteList'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -23,7 +23,7 @@ function Header() {
                 <Link to='/' className='links' >Hot 100</Link>
            
 
-            <Link to='/quotes' component={Quotes} className='links' >Quotes</Link>
+            <Link to='/quotes' className='links' >Quotes</Link>
 
             <form>
                 <label>

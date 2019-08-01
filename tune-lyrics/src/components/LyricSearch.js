@@ -45,13 +45,13 @@ class LyricSearch extends Component {
 
 
     render() {
-        
-        
+
+
         return (
 
             <div>
-                    
-                <form  onSubmit={this.handleSubmit}>
+
+                <form onSubmit={this.handleSubmit}>
                     <label className='input-labels'>
                         Artist:<br></br>
                         <input className='artist-input' onChange={this.handleArtistChange} type="text" />
@@ -59,16 +59,16 @@ class LyricSearch extends Component {
                     <label className='input-labels'>
                         Song: <br></br>
                         <input className='song-input' onChange={this.handleSongChange} type="text" />
-                    </label> <br /> 
-                <div className='button'>
-                    <input  type="submit" value="Submit" />
-                </div>
+                    </label> <br />
+                    <div className='button'>
+                        <input type="submit" value="Submit" />
+                    </div>
                 </form>
 
-                
-                
-                    <p className='lyrics'>{this.state.lyric}</p>
-                
+
+
+                <p className='lyrics'>{this.state.lyric}</p>
+
             </div>
 
         )
