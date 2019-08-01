@@ -5,4 +5,4 @@
  
  [LyricSurge](http://tune-lyrics.surge.sh/)
  
- ## ![](https://drive.google.com/file/d/1eJ2OWh-4mA_fJN46pYdR6IvHDuwJPfUB/view?usp=sharing)
+ ## ![](https://i.imgur.com/WJ2INmk.png)
